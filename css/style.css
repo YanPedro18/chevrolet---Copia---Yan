@@ -615,7 +615,7 @@ color: #393a38;
 
     }
     .footer-flex p {
-        transform: translate(0px, 40px);
+        transform: translate(-35px, 40px);
         margin: 0px 10px;
 
     }
@@ -624,7 +624,7 @@ color: #393a38;
     .fa-whatsapp {
         font-size: 4.0rem;
         position: fixed;
-        transform: translate(1250px,570px);
+        transform: translate(1320px,710px);
         width: 45px;
         z-index: 9999;
         height: 42px;
