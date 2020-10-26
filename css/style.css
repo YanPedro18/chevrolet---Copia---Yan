@@ -24,6 +24,23 @@ a {
     text-decoration: none;
     }
 /* MOBILE FIRST */
+.fas {  
+    margin: 0px 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+.fas:hover{
+    cursor: pointer;
+    color: #f1c055;
+}
+.far {
+    margin: 0px 3px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.far:hover{
+    cursor: pointer;
+    color: #f1c055;
+}
 .fa-whatsapp {
     display: none;
 }
@@ -263,6 +280,7 @@ a {
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+   
     }
 
 .back4-flex h1 {
@@ -274,11 +292,13 @@ a {
 .back4-flex input {
     margin-top: 10px;
     outline: none;
+    border-style: hidden;
+    border-bottom: 1px solid  rgb(69, 206, 247);
     }
 
 .back4-flex input:hover {
    
-    border-radius: 10px;
+    border-radius: 5px;
     border: solid rgb(69, 206, 247);
     box-shadow:  1px 2px 10px 4px rgba(69, 206, 247, 0.467);
    color: rgb(69, 206, 247);
@@ -286,16 +306,18 @@ a {
 
 .back4-flex textarea {
     margin-top: 10px;
+    border-style: hidden;
+    border-bottom: 1px solid  rgb(69, 206, 247);
     }
 .back4-flex textarea:hover {
-   
     outline: solid rgb(69, 206, 247);
     box-shadow:  1px 2px 10px 4px rgba(69, 206, 247, 0.467);
-    
     }
-
-.botao button {
-    margin-top: 5px;
+.botao {
+    margin-top: 15px;
+    }
+.botao a {
+    
     border: none;
     font-size: 1.2rem;
     color: white;
@@ -304,13 +326,13 @@ a {
     padding: 10px 20px;
     }
 
-.botao button:hover {
+.botao a:hover {
     box-shadow:  1px 2px 10px 10px rgba(69, 206, 247, 0.604);
     }
 
 .back4-flex h2,p {
     font-size: 1.1rem;
-    margin-top: 5px;
+    margin-top: 15px;
     }
   /*👉FOOTER👈*/
 .footer {
@@ -328,12 +350,12 @@ a {
     }
 .logomarca1 {
     max-width: 50%;
-   margin: 20px 0;
+    margin: 20px 0;
     }
 
 .footer-flex p {
-font-size: 1.0rem;
-color: #393a38;
+    font-size: 1.0rem;
+    color: #393a38;
     }
 
 .footer-flex a {
@@ -457,7 +479,7 @@ color: #393a38;
       /*👉FOOTER👈*/
     .footer {
         width: 100%;
-        height: 30vh;
+        height: 33.3vh;
     }
 }
 
@@ -583,7 +605,7 @@ color: #393a38;
     .form2 textarea:hover {
         padding: 15px;
     }
-    .botao button {
+    .botao  {
         margin-top: 50px;
         font-size: 1.5rem;
         padding: 10px 50px;
@@ -623,13 +645,23 @@ color: #393a38;
 
     .fa-whatsapp {
         font-size: 4.0rem;
+       
         position: fixed;
-        transform: translate(1320px,710px);
-        width: 45px;
+        top: 0;
+        left: 0;
+        transform: translate(1455px,825px);
+        width: 3%;
         z-index: 9999;
-        height: 42px;
+        height: 5.0%;
         text-align: center;
         border-radius: 5px;
         color: white;
         background-color: forestgreen;
+    }
+    .fa-whatsapp {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    ::selection {
+        background-color: rgb(69, 206, 247);
     }
