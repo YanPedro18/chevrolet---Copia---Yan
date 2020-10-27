@@ -228,6 +228,18 @@ a {
     margin-top: 10px;  
     max-width: 80%;
     }
+.back2-flex a {
+        font-size: 1.5rem;
+        color: white;
+        border-radius: 5px;
+        margin-top: 15px;
+        background: rgb(69, 206, 247);
+        padding: 10px 20px;
+    }
+    
+.back2-flex a:hover {
+        box-shadow:  1px 2px 10px 10px rgba(69, 206, 247, 0.604);
+    }
   /*👉 SECTION 3👈*/
 .back3 {
     background: #f1c055;
@@ -331,8 +343,8 @@ a {
     }
 
 .back4-flex h2,p {
-    font-size: 1.1rem;
-    margin-top: 15px;
+    font-size: 1.7rem;
+    margin-top: 20px;
     }
   /*👉FOOTER👈*/
 .footer {
@@ -354,7 +366,7 @@ a {
     }
 
 .footer-flex p {
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     color: #393a38;
     }
 
@@ -409,7 +421,7 @@ a {
       /*👉 SECTION 2👈*/
     .back2 {
         width: 100%;
-        height: 55vh;
+        height: 65vh;
     }
     .back2-flex h2 {
         line-height: 125%;
@@ -447,10 +459,6 @@ a {
       flex-wrap: wrap;
     
     } 
-    .form1 input {
-     margin: 0 auto;
-      
-    }
     .form1 input:hover {
         padding: 1px;
         margin: 0 auto;
@@ -459,20 +467,12 @@ a {
         padding: 1px;
         margin: 0 auto;
     } 
-
+    .form2 input {
+        transform: translate(-10px,-4px);
+    }
     .back4-flex h1 {
         margin: 30px 0px;
     }
-
-    .form1 {
-        padding: 1px;
-        display: flex;
-    }
-    .form2 {
-        padding: 1px;
-        display: flex;
-    }
-    
    .botao{
         margin: 20px;
     }
@@ -560,6 +560,11 @@ a {
        max-width: 600px;
        font-size: 3.0rem;
     }
+    .back2-flex a {
+        padding: 15px 40px;
+        transform: translate(-202px, 130px);
+    }
+
       /*👉 SECTION 3👈*/
     .back3 {
         width: 100%;
@@ -570,6 +575,9 @@ a {
     }
     .back3-flex h3 {
         font-size: 1.9rem;
+    }
+    .back3-flex a {
+        margin-top: 50px;
     }
     /*👉 SECTION 4👈*/
     .back4 {
@@ -591,13 +599,13 @@ a {
         margin: 0px 10px;
         padding: 15px 13px;
         flex-wrap: wrap;
-        transform: translate(0px,40px);
+        transform: translate(7px,30px);
     }
     .form2 textarea {
         margin: 0px 10px;
         padding: 15px 15px;
         flex-wrap: wrap;
-        transform: translate(-9px,40px);
+        transform: translate(-13px,49px);
     }
     .form1 input:hover {
         padding: 14px;
@@ -605,19 +613,24 @@ a {
     .form2 textarea:hover {
         padding: 15px;
     }
+    
     .botao  {
+        margin-top: 55px;
+        font-size: 1.2rem;
+      
+    }
+    .botao a {
+        font-size: 1.6rem;
         margin-top: 50px;
-        font-size: 1.5rem;
         padding: 10px 50px;
     }
     .back4-flex h2 {
-        font-size: 1.6rem;
+        font-size: 1.9rem;
         margin-top: 40px;
         margin-bottom: 10px;
     }
     .back4-flex p {
-        
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
    /*👉 FOOTER👈*/
     .footer {
@@ -633,7 +646,7 @@ a {
     }
     .footer-flex a {
         padding: 10px;
-        transform: translate(800px, 40px);
+        transform: translate(930px, 40px);
 
     }
     .footer-flex p {
@@ -642,10 +655,8 @@ a {
 
     }
     }
-
     .fa-whatsapp {
         font-size: 4.0rem;
-       
         position: fixed;
         top: 0;
         left: 0;
